@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body style="text-align:center;" onload="showAll()">
+    <div id="page">
+        <div class="logo" ><img src="imgs/logo.png" id="logoImg"
+                                onclick="showAll()"></div>
+        <div class="menus">
+            <img src="imgs/blue_t.png" class="menu" onclick="showT()">
+            <img src="imgs/blue_p.png" class="menu" onclick="showP()">
+            <img src="imgs/blue_s.png" class="menu" onclick="showS()">
+            <span class="colorChoice" id="choiceBlue" onclick="showBlue()">Blue</span>
+            <span class="colorChoice" id="choiceYellow" onclick="showYellow()" >Yellow</span>
+            <span class="colorChoice" id="choicePink" onclick="showPink()">Pink</span>
+        </div>
+        <div id="text"></div>
+    </div>
+</body>
+</html>

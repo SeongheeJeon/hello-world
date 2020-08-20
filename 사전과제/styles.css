@@ -1,0 +1,48 @@
+img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+
+}
+#logoImg{
+    width: 70px;
+    height: 70px;
+}
+#page{
+    width: 350px;
+    background-color: grey;
+    padding: 5px 0px 10px 0px;
+
+}
+.menus{
+    padding: 20px;
+}
+
+.colorChoice{
+    padding: 5px;
+}
+
+#choiceBlue{
+    background-color:blue;
+}
+
+#choiceYellow{
+    background-color:Yellow;
+}
+
+#choicePink{
+    background-color:pink;
+}
+
+#text{
+    vertical-align: middle;
+}
+
+.item{
+    background-color: white;
+    margin: 10px 10px 10px 25px;
+    padding: 5px 5px 5px 10px;
+    width: 280px;
+    height: 35px;
+    text-align: left;
+}
